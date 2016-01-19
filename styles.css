@@ -20,11 +20,12 @@ body {
   width: inherit;
   height: inherit;
   animation-name: spin;
-  animation-duration: 20s;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   transform-style: preserve-3d;
-  transition: transform 5s;
+  transition: transform .1s;
 }
 .cube-face {
   width: inherit;
