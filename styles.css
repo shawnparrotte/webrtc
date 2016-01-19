@@ -13,14 +13,13 @@ body {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-
   perspective: 600px;
 }
 .cube {
   position: relative;
   width: inherit;
   height: inherit;
-
+  animation-name: spin;
   transform-style: preserve-3d;
   transition: transform 0.6s;
 }
@@ -48,3 +47,7 @@ body {
 .cube-face-bottom {
   transform: rotateX(-90deg) translate3d(0, 0, 75px);
 }
+
+@keyframes spin {
+    from {transform: rotate3d(200deg, 200deg, 200deg);}
+    to {transform: rotate3d(-200deg, -200deg, -200deg):}
