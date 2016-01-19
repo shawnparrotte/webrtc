@@ -11,8 +11,8 @@ body {
 .scene {
   display: inline-block;
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   perspective: 600px;
 }
 .cube {
@@ -35,22 +35,22 @@ body {
 }
 
 .cube-face-front {
-  transform: translate3d(0, 0, 75px);
+  transform: translate3d(0, 0, 125px);
 }
 .cube-face-back {
-  transform: rotateY(180deg) translate3d(0, 0, 75px);
+  transform: rotateY(180deg) translate3d(0, 0, 125px);
 }
 .cube-face-left {
-  transform: rotateY(-90deg) translate3d(0, 0, 75px);
+  transform: rotateY(-90deg) translate3d(0, 0, 125px);
 }
 .cube-face-right {
-  transform: rotateY(90deg) translate3d(0, 0, 75px);
+  transform: rotateY(90deg) translate3d(0, 0, 125px);
 }
 .cube-face-top {
-  transform: rotateX(90deg) translate3d(0, 0, 75px);
+  transform: rotateX(90deg) translate3d(0, 0, 125px);
 }
 .cube-face-bottom {
-  transform: rotateX(-90deg) translate3d(0, 0, 75px);
+  transform: rotateX(-90deg) translate3d(0, 0, 125px);
 }
 
 @keyframes spin {
