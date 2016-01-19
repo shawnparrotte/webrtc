@@ -49,5 +49,5 @@ body {
 }
 
 @keyframes spin {
-    from {transform: rotate3d(200deg, 200deg, 200deg);}
-    to {transform: rotate3d(-200deg, -200deg, -200deg):}
+    from {transform: rotateX(200deg) rotateY(200deg)}
+    to {transform: rotateX(-200deg) rotateY(-200deg)}
