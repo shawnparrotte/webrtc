@@ -1,21 +1,46 @@
-#localView {
-  transform: rotateY(180deg);
-  box-shadow: 0 0 20px #777;
+
+
+body {
+  text-align: center;
+  padding: 50px;
+}
+.scene {
+  display: inline-block;
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+
+  perspective: 600px;
+}
+.cube {
+  position: relative;
+  width: inherit;
+  height: inherit;
+
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+.cube-face {
+  width: inherit;
+  height: inherit;
+  position: absolute;
 }
 
-#horizontal-center {
-  display: flex;
-  justify-content: center;
+.cube-face-front {
+  transform: translate3d(0, 0, 75px);
 }
-
-#vertical-center {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.cube-face-back {
+  transform: rotateY(180deg) translate3d(0, 0, 75px);
 }
-
-#cube {
-  height: 200px;
-  width: 200px;
+.cube-face-left {
+  transform: rotateY(-90deg) translate3d(0, 0, 75px);
+}
+.cube-face-right {
+  transform: rotateY(90deg) translate3d(0, 0, 75px);
+}
+.cube-face-top {
+  transform: rotateX(90deg) translate3d(0, 0, 75px);
+}
+.cube-face-bottom {
+  transform: rotateX(-90deg) translate3d(0, 0, 75px);
 }
