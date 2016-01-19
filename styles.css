@@ -54,6 +54,6 @@ body {
 }
 
 @keyframes spin {
-    from {transform: rotateX(360deg) rotateY(360deg)}
-    to {transform: rotateX(-360deg) rotateY(-360deg)}
+    from {transform: rotateX(500deg) rotateY(500deg)}
+    to {transform: rotateX(-500deg) rotateY(-500deg)}
   }
