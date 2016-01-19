@@ -1,9 +1,12 @@
 var selfView, peerView, btnCall, peerConnection, signaling;
 
 function gotStream(stream){
-  attachMediaStream(localView, stream);
+  attachMediaStream(localView1, stream);
   attachMediaStream(localView2, stream);
   attachMediaStream(localView3, stream);
+  attachMediaStream(localView4, stream);
+  attachMediaStream(localView5, stream);
+  attachMediaStream(localView6, stream);
 
 
 }
