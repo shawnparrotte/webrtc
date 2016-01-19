@@ -21,7 +21,7 @@ body {
   height: inherit;
   animation-name: spin;
   transform-style: preserve-3d;
-  transition: transform 0.6s;
+  transition: transform 5s;
 }
 .cube-face {
   width: inherit;
