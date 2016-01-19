@@ -17,7 +17,7 @@ function onStreamError(error){
 
 function setupConnection(){
 
-    var constraints = {"video": true, "audio": true};
+    var constraints = {"video": true, "audio": false};
     getUserMedia(constraints, gotStream, onStreamError)
 }
 
