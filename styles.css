@@ -20,6 +20,7 @@ body {
   width: inherit;
   height: inherit;
   animation-name: spin;
+  animation-duration: 5s;
   transform-style: preserve-3d;
   transition: transform 5s;
 }
