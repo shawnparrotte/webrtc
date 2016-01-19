@@ -14,3 +14,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
+#cube {
+  height: 200px;
+  width: 200px;
+}
