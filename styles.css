@@ -1,0 +1,16 @@
+#localView {
+  transform: rotateY(180deg);
+  box-shadow: 0 0 20px #777;
+}
+
+#horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+
+#vertical-center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
