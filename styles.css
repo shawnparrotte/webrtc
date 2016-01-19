@@ -20,7 +20,7 @@ body {
   width: inherit;
   height: inherit;
   animation-name: spin;
-  animation-duration: 10s;
+  animation-duration: 25s;
   animation-timing-function: ease-in-out;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -54,6 +54,6 @@ body {
 }
 
 @keyframes spin {
-    from {transform: rotateX(500deg) rotateY(500deg)}
-    to {transform: rotateX(-500deg) rotateY(-500deg)}
+    from {transform: rotateX(720deg) rotateY(720deg)}
+    to {transform: rotateX(-720deg) rotateY(-720deg)}
   }
