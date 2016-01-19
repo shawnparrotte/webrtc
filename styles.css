@@ -17,7 +17,6 @@ body {
 }
 .cube {
   position: relative;
-  border: 1px solid black;
   width: inherit;
   height: inherit;
   animation-name: spin;
@@ -29,6 +28,7 @@ body {
   transition: transform .1s;
 }
 .cube-face {
+  border: 1px solid black;
   width: inherit;
   height: inherit;
   position: absolute;
